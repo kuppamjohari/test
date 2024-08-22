@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/* LOGIN */
+#login {
+	position: relative;
+	z-index: 10001;
+}
+
+/* LOGO */
+#login h1 a {
+	visibility: hidden;
+}
+
+/* FORMS */
+#loginform,
+#lostpasswordform {
+	border-width: 1px;
+	border-style: solid;
+	padding: 17px 20px;
+	margin-top: 7px;
+}
+
+/* LABEL */
+
+/* INPUT */
+#loginform .input,
+#loginform input[type="checkbox"],
+#lostpasswordform .input {
+	border-width: 1px;
+	border-style: solid;
+}
+#loginform input[type="checkbox"]::-ms-check {
+	border-width: 1px;
+	border-style: solid;
+}
+
+/* REMEMBERME */
+#rememberme {
+	margin-right: 0;
+	margin-top: -2px;
+}
+
+/* SUBMIT BUTTON */
+#wp-submit {
+	padding: 0 10px;
+	text-shadow: none;
+	border-radius: 0;
+	transition: background-color 0.05s ease-out;
+}
+#wp-submit:hover {
+	transition: background-color 0.05s ease-out;
+}
+#wp-submit:active {
+	transition: background-color 0.05s ease-out;
+}
+
+/* LINK BOX */
+#login #nav,
+#login #backtoblog {
+	border-width: 1px;
+	border-style: solid;
+	padding: 5px 24px 5px 20px;
+}
+#login #nav {
+	border-bottom: none;
+	padding-bottom: 1px;
+	margin-top: 7px;
+	margin-bottom: 0;
+}
+#login #backtoblog {
+	border-top: none;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+/* NOTIFICATIONS */
+#login .message,
+#login #login_error {
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	margin-bottom: 7px;
+}
+
+/* LINK */
+.login #login a,
+.login #login a:hover,
+.login #login a:focus {
+	box-shadow: none;
+}
